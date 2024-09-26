@@ -1,0 +1,187 @@
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  
+}
+
+footer p {
+  color: white;            /* Make the text inside <p> black */
+}
+
+footer {
+  background: rgba(0, 51, 102, 0.703);  /* Darker blue with transparency */
+  backdrop-filter: blur(10px);         /* Frosted glass effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  border-top: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border for definition */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);       /* Slight shadow for depth */
+  padding: 20px 0;                    /* Padding to give some space inside the footer */
+  color: #fff;                        /* White text for the rest of the footer */
+  text-align: center;                 /* Center-align all footer text */
+}
+
+/* Styling for footer links */
+footer a {
+  color: #ffffff;                     /* White color for links */
+  text-decoration: none;              /* Remove underline */
+}
+
+footer a:hover {
+  color: #6699cc;                     /* Light blue color on hover */
+}
+
+/* For the social media icons */
+footer .fa {
+  font-size: 20px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+footer .fa:hover {
+  color: #6699cc;                     /* Light blue on hover */
+}
+
+
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.teic {
+  max-height: 40px;           /* Set a maximum height for the text container */
+  overflow-y: scroll;         /* Enable vertical scrolling */
+  font-weight: bold;
+  font-size: 25px;
+  font-style: italic;
+  word-wrap: break-word;      /* Allow the text to wrap onto multiple lines */
+  line-height: 1.2;           /* Adjust line height if necessary */
+  text-align: center;         /* Center-align the text */
+  
+  /* Hide the scrollbar */
+  scrollbar-width: none;      /* For Firefox */
+}
+
+.teic::-webkit-scrollbar {
+  display: none;              /* For WebKit browsers (Chrome, Safari, etc.) */
+}
+
+
+.teic::-webkit-scrollbar-track {
+  background: #f1f1f1;        /* Background color of the scrollbar track */
+}
+
+.teic::-webkit-scrollbar-thumb {
+  background-color: #888;     /* Color of the scrollbar thumb */
+  border-radius: 10px;        /* Rounded corners for the thumb */
+  border: 2px solid #f1f1f1;  /* Space between the scrollbar and the thumb */
+}
+
+.teic::-webkit-scrollbar-thumb:hover {
+  background: #555;           /* Darken the thumb on hover */
+}
+
+/* Smooth scrolling effect */
+.teic {
+  scroll-behavior: smooth;    /* Smooth scrolling when using the scrollbar */
+  text-align: center;         /* Center-align the text */
+}
+
+
+ .congrats 
+ {
+font-family: 'Nunito Sans', sans-serif;
+font-size: 23px;
+
+}
+.iss {
+	
+	padding-left: 80px;
+	letter-spacing: 1px;
+}
+
+.responsive {
+	width:100px;
+	height:auto;
+}
+.text_body {
+
+    font-family: 'Roboto', sans-serif;
+	font-size: 35px;
+	color:black;
+	text-align: center;
+
+	
+
+}
+.row {
+	display:flex;
+	
+}
+
+.jumbotron {
+	
+	
+  background-image: url('https://nwuthereview.org/wp-content/uploads/2020/10/For-Website-Banner-scaled.jpg');
+  background-size: cover;
+  
+ 
+  
+  
+}
+
+	
+.textcolor {
+	
+	color: white;
+
+
+
+
+
+
+
+	
+	
+}
+.textcolortitle {
+	color: white;
+}
+
+
+	
+	
+
+
+
+
+
+
+
